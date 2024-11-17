@@ -1,0 +1,241 @@
+/* Styling for the Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+  }
+
+  .back-to-top:hover {
+    background-color: #0056b3;
+  }
+
+  /* Styling for Explore More Button */
+  .explore-more {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .explore-more a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .explore-more a:hover {
+    background-color: #0056b3;
+  }
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #1e3a28;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    height: 70vh;
+    background: url('https://s7ap1.scene7.com/is/image/incredibleindia/dal-lake-srinagar-jammu-&-kashmir-2-attr-hero?qlt=82&ts=1726816668703') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn-primary {
+    background: #ff6347;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background: #d9534f;
+  }
+  
+  .btn-secondary {
+    background: #1e3a28;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background: #163021;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 3rem 1rem;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #1e3a28;
+    margin-bottom: 2rem;
+  }
+  
+  /* Tourist Spots */
+  .spots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .spot-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .spot-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spot-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .spot-card h3 {
+    background: #1e3a28;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .spot-card p {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Gallery */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    background: #1e3a28;
+    color: white;
+    text-align: center
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-book {
+    background-color: #0078d7; /* Blue color for the button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-book:hover {
+    background-color: #005bb5; /* Darker blue for hover effect */
+}
